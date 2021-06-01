@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <title>Real Time Image Identification App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpg">
+  <center>
+    <h1 id="op">Case Study Google Lens Vs MobileNet</h1>
+    <div><span id="op">
+        <h1>Google Lens <image src="download.png" style="width: 50px" style="height:50px"></image>
+        </h1>
+      </span>
+
+      <h1>Vs</h1>
+      <br>
+      <button class="btn btn-primary">MobileNet</button>
+    </div>
+<br>
+<br>
+    <ol>
+      <div class="tes_image_and_result col-xs-12" </div> 
+        <li class="col-sm-12 col-xs-12 list">
+          <h1 class="col-lg-4 col-m-4 col-xs-12" >Test Image </h1>
+          <img class="col-lg-4 col-m-4 col-xs-12 test" src="bottle.jpg">
+         <h5 class="col-lg-4 col-m-4 col-xs-12">OutPut On <b>Google Lens = <span id="imageshow"></span></b></h5>
+        </li>
+        <br>
+        <li class="col-sm-12 col-xs-12 list">
+          <h1 class="col-lg-4 col-m-4 col-xs-12" >Test Image </h1>
+          <img class="col-lg-4 col-m-4 col-xs-12 test" src="Towel.jpg">
+         <h5 class="col-lg-4 col-m-4 col-xs-12">OutPut On <b>Google Lens = <span id="imageshow"></span></b></h5>
+        </li>
+        <br>
+        <li class="col-sm-12 col-xs-12 list">
+          <h1 class="col-lg-4 col-m-4 col-xs-12" >Test Image </h1>
+          <img class="col-lg-4 col-m-4 col-xs-12 test" src="pen.jpg">
+         <h5 class="col-lg-4 col-m-4 col-xs-12">OutPut On <b>Google Lens = <span id="imageshow"></span></b></h5>
+        </li>
+        <br>
+        <li class="col-sm-12 col-xs-12 list">
+          <h1 class="col-lg-4 col-m-4 col-xs-12" >Test Image </h1>
+          <img class="col-lg-4 col-m-4 col-xs-12 test" src="watch.jpg">
+         <h5 class="col-lg-4 col-m-4 col-xs-12">OutPut On <b>Google Lens = <span id="imageshow"></span></b></h5>
+        </li>
+        <br>
+        <li class="col-sm-12 col-xs-12 list">
+          <h1 class="col-lg-4 col-m-4 col-xs-12" >Test Image </h1>
+          <img class="col-lg-4 col-m-4 col-xs-12 test" src="mobile.jpg">
+         <h5 class="col-lg-4 col-m-4 col-xs-12">OutPut On <b>Google Lens = <span id="imageshow"></span></b></h5>
+        </li>
+
+    </ol>
+  </center>
+  <script src="main.js"></script>
+</body>
