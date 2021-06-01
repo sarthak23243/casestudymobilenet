@@ -1,0 +1,48 @@
+html {
+    background-size: 100%;
+    background-position: center;
+
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: 'KoHo', sans-serif;
+}
+
+button {
+    font-family: 'KoHo', sans-serif;
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+    font-family: 'KoHo', sans-serif;
+}
+.test {
+    width:290px;
+    height: 330px;
+}
+.list {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 900px;
+    height:550px;
+    background-color: gray;
+    padding: 20px;
+    margin-left: 450px;
+    border-width:25px;
+    border-color: white;
+    border-radius:10px;
+    margin-bottom: 30px;
+}
+@keyframes example {
+    from {
+      box-shadow: 1px 1px 88px purple;
+    }
+
+    to {
+      box-shadow: 1px 1px 88px blue;
+    }
+  }
